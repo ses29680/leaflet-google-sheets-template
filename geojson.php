@@ -37,7 +37,7 @@ if ( !$error && (($handle = fopen($googleSpreadsheetUrl, "r")) !== FALSE) )
       'properties' => array(
         'location' => $csvRow[2],
         'address' => $csvRow[3],
-        'type' => $csvRow[4]
+        'charger_type' => $csvRow[4]
       )
     );
   } // end while, loop through CSV data
